@@ -8,10 +8,11 @@
   
   c. Create a batch of training and test set
   
-  Note: Generator takes in NOISY IMAGES
-        Discriminator takes the output from generator to give Dg
-        Discriminator also take the ground truth image to give Dx
-        These values Dg and Dx will be used in our loss function.
+  Note: 
+    - Generator takes in NOISY IMAGES
+    - Discriminator takes the output from generator to give Dg
+    - Discriminator also take the ground truth image to give Dx
+    - These values Dg and Dx will be used in our loss function.
 
 2. Using this batch of images, we'll call our GAN model
   
